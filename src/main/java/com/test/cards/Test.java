@@ -28,7 +28,7 @@ public class Test {
         System.out.println(game.get(1));
 
         //比较两人手牌的第一张大小
-        if(game.get(0).get(0).getNumber()>game.get(1).get(0).getNumber()){
+        if(game.get(0).get(0).getNumber()>=game.get(1).get(0).getNumber()){
 
             System.out.println("-----第一个人先出牌------：");
 
